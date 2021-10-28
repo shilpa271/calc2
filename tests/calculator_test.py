@@ -32,3 +32,5 @@ def test_calculator_multiply():
     calc = Calculator()
     result = calc.multiply_numbers(1,2)
     assert result == 2
+
+    
