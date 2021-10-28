@@ -30,3 +30,9 @@ def test_calculator_multiply():
     calc = Calculator()
     result  = calc.multiply_numbers(1,2)
     assert result == 2
+
+def test_calculator_div():
+    """ tests multiplication of two Numbers"""
+    calc = Calculator()
+    result = calc.div_numbers(4, 2)
+    assert result == 2
