@@ -27,3 +27,4 @@ class Calculator:
             return self.result
         except ZeroDivisionError:
             return "Zero Error"
+        
