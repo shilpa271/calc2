@@ -14,10 +14,8 @@ def test_calculator_add(clear_history):
     """Testing the Add function of the calculator"""
     assert Calculator.add_number(1,2) == 3
     assert Calculator.add_number(2, 2) == 4
-    assert Calculator.add_number(3, 2) == 5
-    assert Calculator.add_number(4, 2) == 6
-    assert Calculator.history_count() == 4
-    assert Calculator.get_result_of_last_calculation_added_to_history() == 6
+    assert Calculator.get_result_of_last_calculation_added_to_history() == 4
+    assert Calculator.history_count() == 2
     pprint.pprint(Calculator.history)
 
 def test_clear_history(clear_history):

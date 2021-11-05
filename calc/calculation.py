@@ -1,7 +1,7 @@
 """This is our calculation base class / Abstract Class"""
 
 class Calculation:
-    # pylint: disable=unused-argument,redefined-outer-name,missing-function-docstring,line-too-long
+    # pylint: disable=unused-argument,redefined-outer-name,missing-class-docstring,line-too-long,too-few-public-methods
     #contstructor and it is the first function called when an object of the class is instantiated
     def __init__(self,value_a, value_b):
         #self references the instantiated object of the class

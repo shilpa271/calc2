@@ -1,4 +1,4 @@
-""" division calculation that is being inherits the value A and value B from the calculation class"""
+""" division between two numbers"""
 from calc.calculation import Calculation
 
 #This is how you extend the division class with the Calculation
