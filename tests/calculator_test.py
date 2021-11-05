@@ -5,7 +5,7 @@ import pytest
 
 from calculator.calculator import Calculator
 
-
+# pylint: disable=unused-argument,redefined-outer-name,missing-function-docstring,line-too-long
 @pytest.fixture
 def clear_history():
     Calculator.clear_history()
