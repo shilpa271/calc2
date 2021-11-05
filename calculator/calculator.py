@@ -1,7 +1,6 @@
 """ This is the increment function"""
 #first import the addition namespace
 from calc.addition import Addition
-from calc.division import Division
 from calc.subtraction import Subtraction
 from calc.multiplication import Multiplication
 from calc.division import Division
