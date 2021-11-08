@@ -28,3 +28,6 @@ class Calculations:
     def add_calculation(calculation):
         """ get a specific calculation from history"""
         return Calculations.history.append(calculation)
+
+
+
