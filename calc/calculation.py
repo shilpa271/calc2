@@ -21,3 +21,4 @@ class Calculation:
         """Getter For Value B"""
         return self._value_b
 
+

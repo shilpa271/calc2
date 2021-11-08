@@ -10,3 +10,4 @@ class Multiplication(Calculation):
             result = result * value
         return result
 
+
