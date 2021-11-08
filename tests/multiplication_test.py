@@ -1,5 +1,5 @@
 """Testing Multiplication"""
-from calc.Calculations.multiplication import Multiplication
+from calc.calculations.multiplication import Multiplication
 
 def test_calculation_multiplication():
     """testing that our calculator has a static method for multiplication"""

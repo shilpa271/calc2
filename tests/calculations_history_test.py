@@ -1,7 +1,7 @@
 """Testing the Calculator"""
 import pytest
 from calc.history.calculations import Calculations
-from calc.Calculations.addition import Addition
+from calc.calculations.addition import Addition
 
 @pytest.fixture
 def clear_history_fixture():
