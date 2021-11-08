@@ -1,5 +1,5 @@
 """Multiplication Class"""
-from calc.calculations.calculation import Calculation
+from calc.Calculations.calculations import Calculation
 
 class Multiplication(Calculation):
     """subtraction calculation object"""
@@ -9,5 +9,3 @@ class Multiplication(Calculation):
         for value in self.values:
             result = result * value
         return result
-
-

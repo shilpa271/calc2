@@ -1,5 +1,5 @@
 """Testing Addition"""
-from calc.calculations.addition import Addition
+from calc.Calculations.addition import Addition
 
 def test_calculation_addition():
     """testing that our calculator has a static method for addition"""
@@ -9,4 +9,3 @@ def test_calculation_addition():
     #Act
     #Assert
     assert addition.get_result() == 10.0
-
