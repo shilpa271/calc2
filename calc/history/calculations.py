@@ -1,5 +1,6 @@
 """Calculation history Class"""
 class Calculations:
+    # pylint: disable=missing-class-docstring
     history = []
     # pylint: disable=too-few-public-methods,missing-class-docstring,missing-function-docstring,
     @staticmethod

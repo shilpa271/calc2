@@ -22,7 +22,7 @@ def test_add_calculation_to_history(clear_history_fixture, setup_addition_calcul
     assert Calculations.count_history() == 1
 
 def test_clear_calculation_history(clear_history_fixture, setup_addition_calculation_fixture):
-    # pylint:disable=unused-argument,redefined-outer-name,singleton-comparison
+    # pylint:disable=unused-argument,redefined-outer-name,singleton-comparison,missing-function-docstring
     assert Calculations.count_history() == 1
     Calculations.clear_history()
     assert Calculations.count_history() == 0
