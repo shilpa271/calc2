@@ -28,3 +28,4 @@ def test_calculator_divide_static(clear_history_fixture):
     # pylint: disable=unused-argument,redefined-outer-name,trailing-newlines
     assert Calculator.divide_numbers(1.0,2.0) == 0.5
 
+
