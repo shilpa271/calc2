@@ -9,5 +9,5 @@ script:
 
 branches:
   only:
-    - calc-part3
+    - refactorcsv
     - development
