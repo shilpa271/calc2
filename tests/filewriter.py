@@ -10,5 +10,6 @@ def Filewriter(df_from_read):
         df = df.append({'value_1': row['value1'],
                         'value_2': row['value_2'],'result': addition.get_result()},
                        ignore_index=True)
+        df.to_csv('addition.csv', mode='a', index=False, header=False)
         print(df)
 

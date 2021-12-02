@@ -1,6 +1,6 @@
 """Multiplication Class"""
 from calc.calculations.calculation import Calculation
-
+# pylint: disable=missing-final-newline,missing-function-docstring
 class Multiplication(Calculation):
     """subtraction calculation object"""
     def get_result(self):

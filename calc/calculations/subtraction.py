@@ -2,7 +2,7 @@
 import pprint
 
 from calc.calculations.calculation import Calculation
-
+# pylint: disable=missing-final-newline,missing-function-docstring,
 class Subtraction(Calculation):
     """subtraction calculation object"""
     def get_result(self):
