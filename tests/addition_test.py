@@ -8,4 +8,4 @@ def test_calculation_addition():
     addition = Addition(mynumbers)
     #Act
     #Assert
-    assert addition.get_result() == 10.0
+    assert addition.get_result() == 10.
