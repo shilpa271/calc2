@@ -1,5 +1,7 @@
 """Testing Addition"""
+
 from calc.calculations.addition import Addition
+# pylint: disable=trailing-newlines
 
 def test_calculation_addition():
     """testing that our calculator has a static method for addition"""
@@ -9,3 +11,10 @@ def test_calculation_addition():
     addition = Addition(mynumbers)
     #Assert
     assert addition.get_result() == 3.0
+
+
+
+
+
+
+

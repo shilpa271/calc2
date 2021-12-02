@@ -2,6 +2,8 @@
 import pytest
 from calc.calculator import Calculator
 from calc.history.calculations import Calculations
+
+
 @pytest.fixture
 def clear_history_fixture():
     """define a function that will run each time you pass it to a test, it is called a fixture"""
@@ -27,5 +29,8 @@ def test_calculator_divide_static(clear_history_fixture):
     """Testing the divide method of the calc"""
     # pylint: disable=unused-argument,redefined-outer-name,trailing-newlines
     assert Calculator.divide_numbers(1.0,2.0) == 0.5
+
+
+
 
 

@@ -7,7 +7,7 @@ from calc.calculations import division
 class Calculations:
     # pylint: disable=missing-class-docstring
     history = []
-    # pylint: disable=too-few-public-methods,missing-class-docstring,missing-function-docstring,
+    # pylint: disable=too-few-public-methods,missing-class-docstring,missing-function-docstring,missing-final-newline
     @staticmethod
     def clear_history():
         Calculations.history.clear()
@@ -32,21 +32,21 @@ class Calculations:
     @staticmethod
     def add_addition_calculation(values):
         """create an addition and add object to history using factory method create"""
-        Calculations.add_calculation(addition.create(values))
+        Calculations.add_calculation(addition.Calculation(values))
         #Get the result of the calculation
-        return Calculations.get_last_calculation_object()
+        return Calculations.history[-1]
     @staticmethod
     def add_subtraction_calculation(values):
         """create a subtraction object to history using factory method create"""
-        Calculations.add_calculation(subtraction.create(values))
-        return Calculations.get_last_calculation_object()
+        Calculations.add_calculation(subtraction.Calculation(values))
+        return Calculations.history[-1]
     @staticmethod
     def add_multiplication_calculation(values):
         """Add a multiplication object to history using factory method create"""
-        Calculations.add_calculation(multiplication.create(values))
-        return Calculations.get_last_calculation_object()
+        Calculations.add_calculation(multiplication.Calculation(values))
+        return Calculations.history[-1]
     @staticmethod
     def add_division_calculation(values):
         """ Create a division object to history using factory method create"""
-        Calculations.add_calculation(division.create(values))
-        return Calculations.get_last_calculation_object()
+        Calculations.add_calculation(division.Calculation(values))
+        return Calculations.history[-1]

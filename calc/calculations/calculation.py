@@ -2,6 +2,7 @@
 class Calculation:
     """ calculation abstract base class"""
 
+    # pylint: disable=too-few-public-methods
     def __init__(self,values: tuple):
         """ constructor method"""
         self.values = Calculation.convert_args_to_list_float(values)

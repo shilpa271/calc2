@@ -1,6 +1,6 @@
 """Addition Class"""
 from calc.calculations.calculation import Calculation
-
+# pylint: disable=missing-final-newline
 class Addition(Calculation):
     """ calculation addition class"""
     def get_result(self):
