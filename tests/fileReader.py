@@ -1,11 +1,12 @@
-import os
 import pandas as pd
 
-class FileReader:
+from tests.absolute import absolutepath
 
+file_name = "tests/data/output.csv"
+
+
+class Read:
     @staticmethod
-    def read_from_file(filename):
-        dir_path = os.getcwd()
-        file_path = os.path.join(dir_path,"/data/", filename)
-        df = pd.read_csv(file_path)
-        return df
+    def DataFrameFromCSVFile():
+        file = pd.read_csv(absolutepath(file_name))
+        return file
