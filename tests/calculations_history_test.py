@@ -33,10 +33,10 @@ def test_get_calculation(clear_history_fixture, setup_addition_calculation_fixtu
     # pylint: disable=unused-argument,redefined-outer-name
     assert Calculations.get_calculation(0).get_result() == 3
 
-def test_get_calculation_last(clear_history_fixture, setup_addition_calculation_fixture):
+def test_get_calc_last_result_value(clear_history_fixture, setup_addition_calculation_fixture):
     """Testing getting the last calculation from the history"""
     # pylint: disable=unused-argument,redefined-outer-name
-    assert Calculations.get_last_calculation().get_result() == 3
+    assert Calculations.get_last_calculation_result_value() == 3
 
 def test_get_calculation_first(clear_history_fixture, setup_addition_calculation_fixture):
     """Testing getting the last calculation from the history"""
