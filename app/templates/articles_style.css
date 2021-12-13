@@ -5,7 +5,7 @@
 }
 body{
     background: black;
-    background-image: url("front-page.jpg");
+    background-image: url("../static/images/front-page.jpg");
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
